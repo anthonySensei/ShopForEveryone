@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminProductCategoryActivity"
+    android:background="@drawable/show_products_page">
+
+
+    <RelativeLayout
+        android:id="@+id/admin_r5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/admin_user_product_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Category"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"/>
+
+
+
+
+    </RelativeLayout>
+
+    <view class="android.support.v7.widget.RecyclerView"
+
+        android:id="@+id/admin_products_of_certain_category_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/admin_r5">
+
+    </view>
+
+
+</RelativeLayout>

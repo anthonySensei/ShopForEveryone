@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "299105667290",
+    "firebase_url": "https://shopforeveryone-d8fcc.firebaseio.com",
+    "project_id": "shopforeveryone-d8fcc",
+    "storage_bucket": "shopforeveryone-d8fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299105667290:android:bbbf2540499bed0c",
+        "android_client_info": {
+          "package_name": "com.example.sfe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299105667290-k5r7qnq06jfid9e9svcoj051qgu2a6e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sfe",
+            "certificate_hash": "098e3ef94742a70a443f840a7328eee575a46554"
+          }
+        },
+        {
+          "client_id": "299105667290-bmrbbe043n6kg1cb54fl5bsstnojb8id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDS2VU8UG0DBT-G1oZltTae8c7FiBDMMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299105667290-bmrbbe043n6kg1cb54fl5bsstnojb8id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

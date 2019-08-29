@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotRegisteredUser.NotRegisteredUserActivity"
+    android:background="@drawable/show_products_page">
+
+
+    <RelativeLayout
+        android:id="@+id/not_registered_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <EditText
+            android:id="@+id/unregistered_search_product_name"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:textSize="18dp"
+            android:background="@android:color/white"
+            android:padding="9dp"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColorHint="@color/colorPrimaryDark"
+            />
+
+        <Button
+            android:id="@+id/unregistered_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/unregistered_search_product_name"
+            android:text="Search"
+            android:padding="9dp"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+    <view class="android.support.v7.widget.RecyclerView"
+
+        android:id="@+id/unregistered_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/not_registered_rl">
+
+    </view>
+
+    <Button
+        android:id="@+id/unregistered_categories_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="show categories"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"
+        />
+
+
+
+
+
+</RelativeLayout>
